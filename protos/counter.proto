@@ -1,7 +1,6 @@
 syntax = "proto3";
 
-option java_package = "com.demo.app";
-option java_outer_classname = "CounterServiceProto";
+package com.demo.app;
 
 service CounterService {
   rpc IncrementCounter(Empty) returns (CounterResponse);
